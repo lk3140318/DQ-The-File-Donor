@@ -47,12 +47,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
 VERIFY2_URL = environ.get('VERIFY2_URL', "urlspay.in")
 VERIFY2_API = environ.get('VERIFY2_API', "e9c14ecc179245950a51803d50966fd1567f57c0)
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlspay.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e9c14ecc179245950a51803d50966fd1567f57c0)
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '9225b2f48ed01c4520a026d285b6c3932bf3bf88)
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
