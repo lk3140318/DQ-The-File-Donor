@@ -48,7 +48,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Illegal_Developer/22")
 VERIFY2_URL = environ.get('VERIFY2_URL', "urlspay.in")
 VERIFY2_API = environ.get('VERIFY2_API', "e9c14ecc179245950a51803d50966fd1567f57c0")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlspay.in')
